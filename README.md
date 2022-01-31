@@ -1,5 +1,6 @@
 # espeasy_custom-css
-Alternative css for espeasy - choose between light/dark and auto mode
+Alternative css for espeasy - choose between light/dark and auto mode.
+
 Easier to use on mobile devices.
 
 <img width="189" alt="darkmode_mobile" src="https://user-images.githubusercontent.com/33860956/151795497-3cbe4276-2288-4cca-8608-5f0b6028cbf1.png">
