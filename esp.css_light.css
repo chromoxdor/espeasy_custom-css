@@ -452,7 +452,8 @@ table.multirow tr:nth-child(even) {
 }
 
 .bodymenu {
-	margin-top: 110px
+	margin-top: 110px;
+	background-color: white;
 }
 
 .menubar {
