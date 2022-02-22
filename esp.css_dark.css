@@ -83,7 +83,7 @@ xmp {
 .button {
 	background-color: #44607a;
 	border: none;
-	border-radius: 4px;
+	border-radius: 5px;
 	color: #FFF;
 	margin: 4px;
 	padding: 4px 16px
@@ -118,7 +118,7 @@ textarea {
 input,
 select,
 textarea {
-	border-radius: 4px
+	border-radius: 5px
 }
 
 .button:hover {
@@ -284,16 +284,15 @@ select.wide {
 .logviewer,
 textarea {
 	font-family: 'Lucida Console', Monaco, monospace;
-	max-width: 1000px;
-	padding: 4px 8px;
+
 	width: 90%;
 	color: #dfdfdf;
 	background-color: #222
 }
 
 #toastmessage {
-	background-color: #00000018;
-	border-radius: 4px;
+	background-color: #00000085;
+	border-radius: 5px;
 	bottom: 30%;
 	color: #fff;
 	font-size: 17px;
@@ -391,23 +390,44 @@ textarea {
 textarea:hover {
 	background-color: #222
 }
-
+tbody {
+    background-color: #222222;
+    border-radius: 10px;
+    display: inline-block;
+    border-width: 0.1px;
+    border-style: solid;
+}
+table tr:first-child th:first-child {
+	border-top-left-radius: 10px;
+  }
+  table tr:first-child th:last-child {
+	border-top-right-radius: 10px;
+  }
+  table tr:last-child td:first-child {
+	border-bottom-left-radius: 10px;
+  }
+  table tr:last-child td:last-child {
+	border-bottom-right-radius: 10px;
+  }
 table.multirow th,
 table.normal th {
 	background-color: #444;
-	border-color: #888;
+	border-width: 0.1px;
+	border-color: #545454;
 	color: #dfdfdf;
 	font-weight: 700;
 	padding: 6px;
 	align-content: center;
+	width: 100vw;
 	text-align: center
 }
-
+tr td {border-width: 0.1px;}
 table.multirow,
 table.normal {
-	border-collapse: collapse;
-	color: #000;
-	min-width: 420px;
+	border-collapse: separate;
+    border-spacing: 0px;
+    border-style: none;
+    min-width: 420px;
 	width: 100%
 }
 
@@ -425,7 +445,8 @@ table.normal td {
 table.multirow td {
 	height: 30px;
 	padding: 4px;
-	text-align: center
+	text-align: center;
+	border-color: #505050;
 }
 
 table.multirow tr:nth-child(odd) {
@@ -438,7 +459,8 @@ table.multirow tr:nth-child(odd) {
 .apheader,
 .headermenu {
 	background-color: #222;
-	padding: 8px 12px
+	padding: 8px 12px;
+	width:100vw;
 }
 
 .note {
@@ -449,17 +471,16 @@ table.multirow tr:nth-child(odd) {
 .headermenu {
 	border-bottom: 1px solid #222;
 	height: 100px;
-	left: 0;
 	position: fixed;
-	right: 0;
 	top: 0;
 	z-index: 1;
 	background-color: #44607a
 }
 
 .bodymenu {
-	margin-top: 110px;
-	background-color: #222
+	padding-top: 100px;
+	background-color: #222;
+	height: 101vh;
 }
 
 .menubar {
@@ -472,11 +493,11 @@ a.menu {
     height: 46px;
     display: flex;
     align-items: center;
+	justify-content: center;
 }
 .menu {
-	border: solid transparent;
-	border-radius: 4px 4px 0 0;
-	border-width: 4px 1px 1px;
+	border: solid transparent 1px;
+	border-radius: 5px 5px 0 0;
 	color: #fff;
 	padding: 10px 10px 8px 10px;
 	white-space: nowrap;
@@ -486,14 +507,10 @@ a.menu {
 .menu.active {
 	background-color: #222;
 	color: #fff;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 8px
-
 }
 
 .menu:hover {
-	background: #444;
+	background: #00000030;
 	color: #fff
 }
 
@@ -549,7 +566,7 @@ a.menu {
 
 section {
 	overflow-x: auto;
-	width: 100%
+	padding: 10px 5px 10px 5px;
 }
 
 @media screen and (max-width: 750px) {
@@ -568,7 +585,7 @@ section {
 	table.normal td {
 		display: table;
 		text-align: center;
-		width: 100%
+		width: 94vw
 	}
 	table.normal th {
 		width: 100% !important
@@ -576,7 +593,7 @@ section {
 	.button.link.wide {
 		display: inline-block;
 		text-align: center;
-		width: 80%
+		width: 60%
 	}
 	.container {
 		display: inline;
