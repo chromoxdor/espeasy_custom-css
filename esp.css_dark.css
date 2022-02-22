@@ -141,7 +141,7 @@ textarea {
 input.wide,
 select.wide {
 	max-width: 500px;
-	width: 80%;
+	width: 95%;
 	color: #dfdfdf
 }
 
@@ -285,7 +285,8 @@ select.wide {
 textarea {
 	font-family: 'Lucida Console', Monaco, monospace;
 
-	width: 90%;
+	width: 98%;
+	height: 55vh;
 	color: #dfdfdf;
 	background-color: #222
 }
@@ -439,7 +440,8 @@ table.normal tr {
 }
 
 table.normal td {
-	height: 30px
+	height: 30px;
+	vertical-align: baseline;
 }
 
 table.multirow td {
@@ -586,14 +588,6 @@ section {
 		display: table;
 		text-align: center;
 		width: 94vw
-	}
-	table.normal th {
-		width: 100% !important
-	}
-	.button.link.wide {
-		display: inline-block;
-		text-align: center;
-		width: 60%
 	}
 	.container {
 		display: inline;

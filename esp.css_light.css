@@ -138,7 +138,7 @@ textarea {
 input.wide,
 select.wide {
 	max-width: 500px;
-	width: 80%
+	width: 95%
 
 }
 
@@ -281,7 +281,8 @@ select.wide {
 .logviewer,
 textarea {
 	font-family: 'Lucida Console', Monaco, monospace;
-	width: 90%;
+	width: 98%;
+    height: 55vh;
 }
 
 #toastmessage {
@@ -435,7 +436,8 @@ table.normal tr {
 }
 
 table.normal td {
-	height: 30px
+	height: 30px;
+	vertical-align: baseline;
 }
 
 table.multirow td {
@@ -445,7 +447,7 @@ table.multirow td {
     border-color: #c0c0c0;
 }
 
-table.multirow tr:nth-child(2n+3) {
+table.multirow tr:nth-child(odd) {
 	background-color: #e8e8e8;
 }
 .highlight td {
@@ -575,19 +577,6 @@ section {
 @media screen and (max-width: 450px) {
 	table.normal {
 		min-width: 300px;
-	}
-	table.normal td {
-		display: table;
-		text-align: center;
-        width: 97vw;
-    }
-	table.normal th {
-		width: 100% !important
-	}
-	.button.link.wide {
-		display: inline-block;
-		text-align: center;
-		width: 60%
 	}
 	.container {
 		display: inline;
