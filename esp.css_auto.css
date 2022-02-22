@@ -465,11 +465,11 @@ a.menu {
     height: 46px;
     display: flex;
     align-items: center;
+	justify-content: center;
 }
 .menu {
 	border: solid transparent;
 	border-radius: 4px 4px 0 0;
-	border-width: 4px 1px 1px;
 	color: #444;
 	padding: 10px 10px 8px 10px;
 	white-space: nowrap
@@ -477,11 +477,8 @@ a.menu {
 
 .menu.active {
 	background-color: #FFF;
-	border-color: #07D #DDD #FFF;
+	border-color: #DDD #DDD #FFF;
 	color: #000;
-	padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 8px
 }
 
 .menu:hover {
@@ -560,7 +557,7 @@ section {
 	table.normal td {
 		display: table;
 		text-align: center;
-		width: 100%
+		width: 100vw;
 	}
 	table.normal th {
 		width: 100% !important
@@ -568,7 +565,7 @@ section {
 	.button.link.wide {
 		display: inline-block;
 		text-align: center;
-		width: 80%
+		width: 60%
 	}
 	.container {
 		display: inline;
