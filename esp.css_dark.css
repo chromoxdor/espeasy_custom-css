@@ -395,8 +395,7 @@ tbody {
     background-color: #222222;
     border-radius: 10px;
     display: inline-block;
-    border-width: 0.1px;
-    border-style: solid;
+	border: #444444 0.1px solid;
 }
 table tr:first-child th:first-child {
 	border-top-left-radius: 10px;
@@ -583,11 +582,6 @@ section {
 @media screen and (max-width: 450px) {
 	table.normal {
 		min-width: 300px;
-	}
-	table.normal td {
-		display: table;
-		text-align: center;
-		width: 94vw
 	}
 	.container {
 		display: inline;

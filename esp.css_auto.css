@@ -389,10 +389,8 @@ tbody {
     background-color: #f8f8f8;
     border-radius: 10px;
     display: inline-block;
-    border-width: 0.1px;
-    border-style: solid;
+	border: #444444 0.1px solid;
 }
-
 table tr:first-child th:first-child {
 	border-top-left-radius: 10px;
   }
@@ -417,8 +415,7 @@ table.normal th {
     width: 100vw;
 	text-align: center
 }
-tr td {border-width: 0.1px;
-    border-color: #c0c0c0;}
+tr td {border-width: 0.1px;}
 
 table.multirow,
 table.normal {
@@ -451,7 +448,7 @@ table.multirow tr:nth-child(odd) {
 	background-color: #e8e8e8;
 }
 .highlight td {
-	background-color: #dbff0075
+	background-color: #dd6600;
 }
 
 .apheader,
@@ -467,7 +464,7 @@ table.multirow tr:nth-child(odd) {
 }
 
 .headermenu {
-	border-bottom: 1px solid #DDD;
+	border-bottom: 0.1px solid #444444;
 	height: 100px;
 	position: fixed;
 	top: 0;
@@ -501,8 +498,9 @@ a.menu {
 
 .menu.active {
 	background-color: #FFF;
-	border-color: #DDD #DDD #FFF;
+	border-color: #444444 #444444 #fff;
 	color: #000;
+	border-width: 0.1px;
 }
 
 .menu:hover {
@@ -722,6 +720,7 @@ section {
 	}
 	tbody {
         background-color: #222222;
+		overflow: hidden;
         border-radius: 10px;
         display: inline-block;
     }
