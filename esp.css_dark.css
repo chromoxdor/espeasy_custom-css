@@ -1,17 +1,10 @@
-.closebtn,
-h1,
-h2,
-h3 {
-	font-weight: 700
-}
+
 
 h1,
 h6 {
 	color: #dfdfdf
 }
-.showmenulabel {
-    background-color: transparent;
-}
+
 .checkmark:after,
 .dotmark:after {
 	content: ''
@@ -140,7 +133,7 @@ textarea {
 
 input.wide,
 select.wide {
-	max-width: 500px;
+	max-width: 350px;
 	width: 95%;
 	color: #dfdfdf
 }
@@ -284,7 +277,6 @@ select.wide {
 .logviewer,
 textarea {
 	font-family: 'Lucida Console', Monaco, monospace;
-
 	width: 98%;
 	height: 55vh;
 	color: #dfdfdf;
@@ -398,18 +390,6 @@ tbody {
 	border: #444444 0.1px solid;
 	overflow: auto;
 }
-table tr:first-child th:first-child {
-	border-top-left-radius: 10px;
-  }
-  table tr:first-child th:last-child {
-	border-top-right-radius: 10px;
-  }
-  table tr:last-child td:first-child {
-	border-bottom-left-radius: 10px;
-  }
-  table tr:last-child td:last-child {
-	border-bottom-right-radius: 10px;
-  }
 table.multirow th,
 table.normal th {
 	background-color: #444;
@@ -441,7 +421,6 @@ table.normal tr {
 
 table.normal td {
 	height: 30px;
-	vertical-align: baseline;
 }
 
 table.multirow td {
@@ -489,7 +468,6 @@ table.multirow tr:nth-child(odd) {
 	position: inherit;
 	top: 54px;
 	width: 100%;
-	background-color: transparent
 }
 a.menu {
     height: 46px;
@@ -503,7 +481,6 @@ a.menu {
 	color: #fff;
 	padding: 10px 10px 8px 10px;
 	white-space: nowrap;
-	background-color: transparent
 }
 
 .menu.active {

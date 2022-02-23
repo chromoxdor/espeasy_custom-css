@@ -1,9 +1,3 @@
-.closebtn,
-h1,
-h2,
-h3 {
-	font-weight: 700
-}
 
 h1,
 h6 {
@@ -137,7 +131,7 @@ textarea {
 
 input.wide,
 select.wide {
-	max-width: 500px;
+	max-width: 350px;
 	width: 95%
 
 }
@@ -392,18 +386,6 @@ tbody {
 	border: #444444 0.1px solid;
 	overflow: auto;
 }
-table tr:first-child th:first-child {
-	border-top-left-radius: 10px;
-  }
-  table tr:first-child th:last-child {
-	border-top-right-radius: 10px;
-  }
-  table tr:last-child td:first-child {
-	border-bottom-left-radius: 10px;
-  }
-  table tr:last-child td:last-child {
-	border-bottom-right-radius: 10px;
-  }
 table.multirow th,
 table.normal th {
 	background-color: #444;
@@ -435,7 +417,6 @@ table.normal tr {
 
 table.normal td {
 	height: 30px;
-	vertical-align: baseline;
 }
 
 table.multirow td {
@@ -449,7 +430,7 @@ table.multirow tr:nth-child(odd) {
 	background-color: #e8e8e8;
 }
 .highlight td {
-	background-color: #dbff0075
+	background-color: #dd6600;
 }
 
 .apheader,
@@ -465,7 +446,7 @@ table.multirow tr:nth-child(odd) {
 }
 
 .headermenu {
-	border-bottom: 1px solid #DDD;
+	border-bottom: 0.1px solid #444444;
 	height: 100px;
 	position: fixed;
 	top: 0;
@@ -499,7 +480,7 @@ a.menu {
 
 .menu.active {
 	background-color: #FFF;
-	border-color: #DDD #DDD #FFF;
+	border-color: #444444 #444444 #fff;
 	color: #000;
 	border-width: 0.1px;
 }
@@ -580,10 +561,5 @@ section {
 	.container {
 		display: inline;
 		user-select: none
-	}
-	@media screen and (max-width: 750px) {
-		.showmenulabel {
-			background-color: transparent
-		}
 	}
 }

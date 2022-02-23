@@ -1,9 +1,3 @@
-.closebtn,
-h1,
-h2,
-h3 {
-	font-weight: 700
-}
 
 h1,
 h6 {
@@ -137,7 +131,7 @@ textarea {
 
 input.wide,
 select.wide {
-	max-width: 500px;
+	max-width: 350px;
 	width: 95%
 
 }
@@ -392,18 +386,6 @@ tbody {
 	border: #444444 0.1px solid;
 	overflow: auto;
 }
-table tr:first-child th:first-child {
-	border-top-left-radius: 10px;
-  }
-  table tr:first-child th:last-child {
-	border-top-right-radius: 10px;
-  }
-  table tr:last-child td:first-child {
-	border-bottom-left-radius: 10px;
-  }
-  table tr:last-child td:last-child {
-	border-bottom-right-radius: 10px;
-  }
 table.multirow th,
 table.normal th {
 	background-color: #444;
@@ -435,7 +417,6 @@ table.normal tr {
 
 table.normal td {
 	height: 30px;
-	vertical-align: baseline;
 }
 
 table.multirow td {
@@ -583,7 +564,6 @@ section {
 	}
 }
 @media (prefers-color-scheme: dark) {
-
 	h1,
 	h6 {
 		color: #dfdfdf
@@ -809,9 +789,4 @@ section {
 		color: #000
 	}
 
-	@media screen and (max-width: 750px) {
-		.showmenulabel {
-			background-color: transparent
-		}
-	}
 }
