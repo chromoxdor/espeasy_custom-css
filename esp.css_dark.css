@@ -60,10 +60,10 @@ h2 {
 }
 
 h3 {
-	background-color: #1e1e1e;
-    color: #dfdfdf;
-	margin: 16px -4px 0;
-	padding: 4px
+	background-color: #cacaca;
+	color: #444;
+	margin: -4px;
+    padding: 6px;
 }
 
 h6 {
@@ -396,6 +396,7 @@ tbody {
     border-radius: 10px;
     display: inline-block;
 	border: #444444 0.1px solid;
+	overflow: auto;
 }
 table tr:first-child th:first-child {
 	border-top-left-radius: 10px;
