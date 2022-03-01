@@ -558,6 +558,9 @@ section {
 	table.normal {
 		min-width: 300px;
 	}
+input.wide:focus {
+    width: 105vw;
+}
 	.container {
 		display: inline;
 		user-select: none
