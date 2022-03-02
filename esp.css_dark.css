@@ -562,7 +562,8 @@ section {
 		min-width: 300px;
 	}
 	input.wide:focus {
-		width: 105vw;
+		position: absolute;
+		left: 4px;
 	}
 	.container {
 		display: inline;
