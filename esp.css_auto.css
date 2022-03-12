@@ -116,10 +116,6 @@ textarea {
 	background: #369
 }
 
-input:hover,
-select:hover {
-	background-color: #ccc
-}
 
 input,
 select,
@@ -176,10 +172,6 @@ select.wide {
 	position: absolute;
 	top: 0;
 	width: 25px
-}
-
-.container:hover input~.checkmark {
-	background-color: #ccc
 }
 
 .container input:checked~.checkmark {
@@ -244,10 +236,6 @@ select.wide {
 	position: absolute;
 	top: 0;
 	width: 26px
-}
-
-.container2:hover input~.dotmark {
-	background-color: #ccc
 }
 
 .container2 input:checked~.dotmark {
@@ -376,9 +364,6 @@ textarea {
 	overflow: auto
 }
 
-textarea:hover {
-	background-color: #eee
-}
 tbody {
     background-color: #f8f8f8;
     border-radius: 10px;
@@ -609,10 +594,6 @@ input.wide:focus {
 	.button:hover {
 		background: #369
 	}
-	input:hover,
-	select:hover {
-		background-color: #8b8b8b
-	}
 	
 	input,
 	select,
@@ -632,10 +613,6 @@ input.wide:focus {
 		background-color: #4444
 	}
 	
-	.container:hover input~.checkmark {
-		background-color: #8b8b8b
-	}
-	
 	.container input:checked~.checkmark {
 		background-color: #44607a
 	}
@@ -647,10 +624,6 @@ input.wide:focus {
 	}
 	.dotmark {
 		background-color: #eee
-	}
-	
-	.container2:hover input~.dotmark {
-		background-color: #ccc
 	}
 	
 	.container2 input:checked~.dotmark {
@@ -700,9 +673,6 @@ input.wide:focus {
 		color: #F1F1F1
 	}
 	
-	textarea:hover {
-		background-color: #222
-	}
 	tbody {
         background-color: #222222;
 		overflow: hidden;
