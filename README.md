@@ -1,3 +1,5 @@
+If you like my work consider da donation: [![donate](https://img.shields.io/badge/donate-ko--fi-orange)](https://ko-fi.com/chromoxdor)
+
 # espeasy_custom-css
 Alternative css for espeasy - choose between light/dark and auto mode.
 
