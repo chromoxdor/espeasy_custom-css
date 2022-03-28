@@ -114,7 +114,6 @@ textarea {
 .button:hover {
 	background: #369
 }
-
 input,
 select,
 textarea {
@@ -531,7 +530,6 @@ section {
 @media screen and (max-width: 750px) {
 	.showmenulabel {
 		display: none;
-		background-color: transparent
 	}
 	a.menu {
 		width: 12%
@@ -544,6 +542,7 @@ section {
 input.wide:focus {
 	position: absolute;
 	left: 4px;
+	z-index: 1;
 }
 	.container {
 		display: inline;
