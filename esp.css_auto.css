@@ -53,7 +53,7 @@ h3 {
 	background-color: #cacaca;
 	color: #444;
 	margin: -4px;
-    padding: 6px;
+	padding: 6px;
 }
 
 h6 {
@@ -114,6 +114,7 @@ textarea {
 .button:hover {
 	background: #369
 }
+
 input,
 select,
 textarea {
@@ -126,7 +127,6 @@ input.wide,
 select.wide {
 	max-width: 350px;
 	width: 95%
-
 }
 
 .widenumber {
@@ -149,7 +149,8 @@ select.wide {
 	margin-left: 4px;
 	margin-top: 0;
 	position: relative;
-	user-select: none
+	user-select: none;
+	height: 30px;
 }
 
 .container input {
@@ -261,7 +262,7 @@ select.wide {
 textarea {
 	font-family: 'Lucida Console', Monaco, monospace;
 	width: 98%;
-    height: 55vh;
+	height: 60vh;
 }
 
 #toastmessage {
@@ -291,6 +292,7 @@ textarea {
 		bottom: 20%;
 		opacity: 0
 	}
+
 	to {
 		bottom: 30%;
 		opacity: .9
@@ -302,6 +304,7 @@ textarea {
 		bottom: 20%;
 		opacity: 0
 	}
+
 	to {
 		bottom: 30%;
 		opacity: .9
@@ -313,6 +316,7 @@ textarea {
 		bottom: 30%;
 		opacity: .9
 	}
+
 	to {
 		bottom: 0;
 		opacity: 0
@@ -324,6 +328,7 @@ textarea {
 		bottom: 30%;
 		opacity: .9
 	}
+
 	to {
 		bottom: 0;
 		opacity: 0
@@ -357,38 +362,42 @@ textarea {
 .logviewer {
 	background-color: #272727;
 	color: #F1F1F1;
-	height: 530px;
 	overflow: auto
 }
 
 tbody {
-    background-color: #f8f8f8;
-    border-radius: 10px;
-    display: inline-block;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+	display: inline-block;
 	border: #444444 0.1px solid;
 	overflow: auto;
 }
+
 table.multirow th,
 table.normal th {
 	background-color: #444;
 	border-width: 0.1px;
-    border-color: #c0c0c0;
+	border-color: #c0c0c0;
 	color: #FFF;
 	font-weight: 700;
 	padding: 6px;
 	align-content: center;
-    width: 100vw;
+	width: 100vw;
 	text-align: center
 }
-tr td {border-width: 0.1px;}
+
+tr td {
+	border-width: 0.1px;
+}
 
 table.multirow,
 table.normal {
 	border-collapse: separate;
-    border-spacing: 0px;
-    border-style: none;
-    min-width: 420px;
-	width: 100%
+	border-spacing: 0px;
+	border-style: none;
+	min-width: 420px;
+	width: 100%;
+	padding-bottom: 5px;
 }
 
 table.multirow tr,
@@ -398,28 +407,29 @@ table.normal tr {
 }
 
 table.normal td {
-	height: 35px;
+	height: 30px;
 }
 
 table.multirow td {
 	height: 30px;
 	padding: 4px;
 	text-align: center;
-    border-color: #c0c0c0;
+	border-color: #c0c0c0;
 }
 
 table.multirow tr:nth-child(odd) {
 	background-color: #e8e8e8;
 }
+
 .highlight td {
 	background-color: #dd6600;
 }
 
 .apheader,
-.headermenu{
+.headermenu {
 	background-color: #F8F8F8;
 	padding: 8px 12px;
-    width:100vw;
+	width: 100vw;
 }
 
 .note {
@@ -432,26 +442,28 @@ table.multirow tr:nth-child(odd) {
 	height: 100px;
 	position: fixed;
 	top: 0;
-	z-index: 1
+	z-index: 1;
 }
 
 .bodymenu {
 	padding-top: 100px;
 	background-color: white;
-    height: 101vh;
+	height: 100vh;
 }
 
 .menubar {
 	position: inherit;
 	top: 54px;
-	width: 100%
+	width: 100%;
 }
+
 a.menu {
-    height: 46px;
-    display: flex;
-    align-items: center;
+	height: 46px;
+	display: flex;
+	align-items: center;
 	justify-content: center;
 }
+
 .menu {
 	border: solid transparent 1px;
 	border-radius: 5px 5px 0 0;
@@ -468,7 +480,7 @@ a.menu {
 }
 
 .menu:hover {
-    background: #bdbdbd;
+	background: #bdbdbd;
 	color: #000
 }
 
@@ -527,54 +539,69 @@ section {
 	padding: 10px 5px 10px 5px;
 }
 
+footer {
+	word-break: break-word;
+	padding: 0px 5px;
+}
+
 @media screen and (max-width: 750px) {
 	.showmenulabel {
 		display: none;
 	}
+
 	a.menu {
 		width: 12%
 	}
 }
+
 @media screen and (max-width: 450px) {
 	table.normal {
 		min-width: 300px;
 	}
-input.wide:focus {
-	position: absolute;
-	left: 4px;
-	z-index: 1;
-}
+
+	input.wide:focus {
+		position: absolute;
+		left: 4px;
+		z-index: 1;
+	}
+
 	.container {
 		display: inline;
 		user-select: none
 	}
 }
+
 @media (prefers-color-scheme: dark) {
+
 	h1,
 	h6 {
 		color: #dfdfdf
 	}
+
 	.closebtn,
 	.div_r {
 		color: #dfdfdf
 	}
+
 	* {
 		color: #b3b3b3
 	}
+
 	h2 {
 		background-color: #444;
 		color: #FFF
 	}
-	
+
 	h3 {
 		background-color: #1e1e1e;
 		color: #dfdfdf
 	}
+
 	.button {
 		background-color: #44607a;
 		color: #FFF
 	}
-	
+
 	.button.help,
 	.checkmark,
 	input,
@@ -582,31 +609,34 @@ input.wide:focus {
 	textarea {
 		border-color: gray
 	}
+
 	.button.link.red {
 		background-color: red
 	}
+
 	.button:hover {
 		background: #369
 	}
-	
+
 	input,
 	select,
 	textarea {
 		background-color: #444
 	}
-	
+
 	input.wide,
 	select.wide {
 		color: #dfdfdf
 	}
+
 	.checkmark.disabled {
 		background-color: grey
 	}
-	
+
 	.checkmark {
 		background-color: #4444
 	}
-	
+
 	.container input:checked~.checkmark {
 		background-color: #44607a
 	}
@@ -616,23 +646,25 @@ input.wide:focus {
 	.logviewer {
 		border-color: #00000018
 	}
+
 	.dotmark {
 		background-color: #eee
 	}
-	
+
 	.container2 input:checked~.dotmark {
 		background-color: #07D
 	}
+
 	.container2 .dotmark:after {
 		background: #fff
 	}
-	
+
 	.logviewer,
 	textarea {
 		color: #dfdfdf;
 		background-color: #222
 	}
-	
+
 	#toastmessage {
 		background-color: #00000085;
 		color: #fff
@@ -641,118 +673,120 @@ input.wide:focus {
 	.level_0 {
 		color: #F1F1F1
 	}
-	
+
 	.level_1 {
 		color: #FCFF95
 	}
-	
+
 	.level_2 {
 		color: #9DCEFE
 	}
-	
+
 	.level_3 {
 		color: #A4FC79
 	}
-	
+
 	.level_4 {
 		color: #F2AB39
 	}
-	
+
 	.level_9 {
 		color: #F50
 	}
-	
+
 	.logviewer {
 		background-color: #272727;
 		color: #F1F1F1
 	}
-	
+
 	tbody {
-        background-color: #222222;
-		overflow: hidden;
-        border-radius: 10px;
-        display: inline-block;
-    }
+		background-color: #222222;
+	}
+
 	table.multirow th,
 	table.normal th {
 		background-color: #444;
 		border-color: #545454;
 		color: #dfdfdf
 	}
-	
-    table.multirow td {border-color: #545454;}
-	
+
+	table.multirow td {
+		border-color: #545454;
+	}
+
 	table.multirow tr,
 	table.normal td,
 	table.normal tr {
 		background-color: #222
 	}
-	
+
 	table.multirow tr:nth-child(odd) {
 		background-color: #2a2c2e
 	}
-	
+
 	.highlight td {
 		background-color: #553044
 	}
-	
+
 	.apheader,
 	.headermenu {
 		background-color: #222
 	}
-	
+
 	.note {
 		color: #7b7b7b;
 	}
-	
+
 	.headermenu {
 		border-bottom: 1px solid #222;
 		background-color: #44607a
 	}
-	
+
 	.bodymenu {
 		background-color: #222
 	}
+
 	.menu {
 		color: #fff;
 		background-color: transparent
 	}
-	
+
 	.menu.active {
 		background-color: #222;
 		border-color: transparent;
 		color: #fff
 	}
-	
+
 	.menu:hover {
 		color: #fff;
-        background: #00000030;	}
+		background: #00000030;
+	}
 
 	.on {
 		color: green
 	}
-	
+
 	.off {
 		color: red
 	}
-	
+
 	.div_r {
 		background-color: #30553d
 	}
-	
+
 	.alert,
 	.warning {
 		color: #fff
 	}
-	
+
 	.alert {
 		background-color: #f44336
 	}
-	
+
 	.warning {
 		background-color: #ffca17
 	}
-	
+
 	.closebtn:hover {
 		color: #000
 	}

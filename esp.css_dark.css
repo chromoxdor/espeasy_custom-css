@@ -51,10 +51,10 @@ h2 {
 }
 
 h3 {
-	background-color: #cacaca;
-	color: #444;
+	background-color: #1e1e1e;
+	color: #dfdfdf;
 	margin: -4px;
-    padding: 6px;
+	padding: 6px;
 }
 
 h6 {
@@ -151,7 +151,8 @@ select.wide {
 	margin-left: 4px;
 	margin-top: 0;
 	position: relative;
-	user-select: none
+	user-select: none;
+	height: 30px;
 }
 
 .container input {
@@ -263,7 +264,7 @@ select.wide {
 textarea {
 	font-family: 'Lucida Console', Monaco, monospace;
 	width: 98%;
-	height: 55vh;
+	height: 60vh;
 	color: #dfdfdf;
 	background-color: #222
 }
@@ -295,6 +296,7 @@ textarea {
 		bottom: 20%;
 		opacity: 0
 	}
+
 	to {
 		bottom: 30%;
 		opacity: .9
@@ -306,6 +308,7 @@ textarea {
 		bottom: 20%;
 		opacity: 0
 	}
+
 	to {
 		bottom: 30%;
 		opacity: .9
@@ -317,6 +320,7 @@ textarea {
 		bottom: 30%;
 		opacity: .9
 	}
+
 	to {
 		bottom: 0;
 		opacity: 0
@@ -328,6 +332,7 @@ textarea {
 		bottom: 30%;
 		opacity: .9
 	}
+
 	to {
 		bottom: 0;
 		opacity: 0
@@ -361,17 +366,17 @@ textarea {
 .logviewer {
 	background-color: #272727;
 	color: #F1F1F1;
-	height: 530px;
 	overflow: auto
 }
 
 tbody {
-    background-color: #222222;
-    border-radius: 10px;
-    display: inline-block;
+	background-color: #222222;
+	border-radius: 10px;
+	display: inline-block;
 	border: #444444 0.1px solid;
 	overflow: auto;
 }
+
 table.multirow th,
 table.normal th {
 	background-color: #444;
@@ -384,14 +389,19 @@ table.normal th {
 	width: 100vw;
 	text-align: center
 }
-tr td {border-width: 0.1px;}
+
+tr td {
+	border-width: 0.1px;
+}
+
 table.multirow,
 table.normal {
 	border-collapse: separate;
-    border-spacing: 0px;
-    border-style: none;
-    min-width: 420px;
-	width: 100%
+	border-spacing: 0px;
+	border-style: none;
+	min-width: 420px;
+	width: 100%;
+	padding-bottom: 5px;
 }
 
 table.multirow tr,
@@ -402,7 +412,7 @@ table.normal tr {
 }
 
 table.normal td {
-	height: 35px;
+	height: 30px;
 }
 
 table.multirow td {
@@ -415,6 +425,7 @@ table.multirow td {
 table.multirow tr:nth-child(odd) {
 	background-color: #2a2c2e
 }
+
 .highlight td {
 	background-color: #553044
 }
@@ -423,7 +434,7 @@ table.multirow tr:nth-child(odd) {
 .headermenu {
 	background-color: #222;
 	padding: 8px 12px;
-	width:100vw;
+	width: 100vw;
 }
 
 .note {
@@ -432,7 +443,7 @@ table.multirow tr:nth-child(odd) {
 }
 
 .headermenu {
-	border-bottom: 1px solid #222;
+	border-bottom: 0.1px solid #222;
 	height: 100px;
 	position: fixed;
 	top: 0;
@@ -443,7 +454,7 @@ table.multirow tr:nth-child(odd) {
 .bodymenu {
 	padding-top: 100px;
 	background-color: #222;
-	height: 101vh;
+	height: 100vh;
 }
 
 .menubar {
@@ -451,12 +462,14 @@ table.multirow tr:nth-child(odd) {
 	top: 54px;
 	width: 100%;
 }
+
 a.menu {
-    height: 46px;
-    display: flex;
-    align-items: center;
+	height: 46px;
+	display: flex;
+	align-items: center;
 	justify-content: center;
 }
+
 .menu {
 	border: solid transparent 1px;
 	border-radius: 5px 5px 0 0;
@@ -530,23 +543,32 @@ section {
 	padding: 10px 5px 10px 5px;
 }
 
+footer {
+	word-break: break-word;
+	padding: 0px 5px;
+}
+
 @media screen and (max-width: 750px) {
 	.showmenulabel {
 		display: none;
 	}
+
 	a.menu {
 		width: 12%
 	}
 }
+
 @media screen and (max-width: 450px) {
 	table.normal {
 		min-width: 300px;
 	}
+
 	input.wide:focus {
 		position: absolute;
 		left: 4px;
 		z-index: 1;
 	}
+
 	.container {
 		display: inline;
 		user-select: none
