@@ -387,7 +387,7 @@ table.normal th {
 }
 
 table.normal th:nth-child(1) {
-    max-width: 375px;
+    max-width: 250px;
 }
 
 tr td {
