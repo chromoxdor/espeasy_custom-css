@@ -386,6 +386,10 @@ table.normal th {
 	text-align: center
 }
 
+table.normal th:nth-child(1) {
+    max-width: 375px;
+}
+
 tr td {
 	border-width: 0.1px;
 }
@@ -396,7 +400,6 @@ table.normal {
 	border-spacing: 0px;
 	border-style: none;
 	min-width: 420px;
-	width: 100%;
 	padding-bottom: 5px;
 }
 
