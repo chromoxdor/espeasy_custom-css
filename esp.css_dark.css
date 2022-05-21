@@ -263,7 +263,7 @@ select.wide {
 .logviewer,
 textarea {
 	font-family: 'Lucida Console', Monaco, monospace;
-	width: 98%;
+	width: 90vw;
 	height: 60vh;
 	color: #dfdfdf;
 	background-color: #222
