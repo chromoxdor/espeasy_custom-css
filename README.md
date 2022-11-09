@@ -1,3 +1,8 @@
+NOTE: This is an old css. Almost everything here is already integrated since the mega-20221105
+You should only use this if you want specific modes and nicer looks for older firmwares....
+
+
+
 If you like my work consider a donation: [![donate](https://img.shields.io/badge/donate-ko--fi-orange)](https://ko-fi.com/chromoxdor)
 
 # espeasy_custom-css
