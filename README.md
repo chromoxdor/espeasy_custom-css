@@ -1,4 +1,5 @@
-<h3><strong>NOTE: This is an old css. Almost everything here is already integrated since the mega-20221105
+<h3><strong>NOTE: This is an old css. Almost everything here is already integrated since the mega-20221105 build.
+
 You should only use this if you want specific modes and nicer looks for older firmwares....</strong><h3>
 
  # 
